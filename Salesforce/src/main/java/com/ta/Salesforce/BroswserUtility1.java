@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BroswserUtility1 {
 
 	public static WebDriver driver=null;
-	//to launch a browser.
+	//to launch a browser
 	public static void launchBrowser( String browserName) {
 		switch(browserName){
 		case "Chrome":
